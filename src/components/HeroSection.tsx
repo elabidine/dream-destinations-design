@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import heroPerson from "@/assets/hero-person.jpg";
+import heroPerson from "@/assets/hero-person-v2.jpg";
 
 const HeroSection = () => {
   const [searchQuery, setSearchQuery] = useState("");
