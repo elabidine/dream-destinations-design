@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import heroPerson from "@/assets/hero-person-v2.jpg";
 
 const HeroSection = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -25,23 +24,6 @@ const HeroSection = () => {
         </svg>
       </div>
 
-      {/* Hero Person - Positioned Right, smaller and better placed */}
-      <div className="absolute right-[5%] lg:right-[10%] top-[12%] z-20 hidden md:block">
-        <div className="relative">
-          <img
-            src={heroPerson}
-            alt="Tahwisa Tourism Ambassador"
-            className="h-[280px] lg:h-[380px] xl:h-[420px] w-auto object-contain drop-shadow-2xl"
-          />
-          {/* Tahwisa branding on shirt */}
-          <div className="absolute bottom-[15%] left-1/2 -translate-x-1/2 text-center pointer-events-none">
-            <span className="text-primary-foreground/80 font-bold text-sm lg:text-base drop-shadow-lg">
-              Tahwisa
-            </span>
-            <span className="block text-primary-foreground/60 text-[10px] font-arabic">تحويسة</span>
-          </div>
-        </div>
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-4 lg:px-8 min-h-screen flex flex-col justify-center">
