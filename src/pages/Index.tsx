@@ -8,12 +8,14 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import NewsletterSection from "@/components/NewsletterSection";
 import Footer from "@/components/Footer";
 import ChatButton from "@/components/ChatButton";
+import SplashScreen from "@/components/SplashScreen";
 
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
       {/* SEO Meta - handled by index.html */}
       
+      <SplashScreen />
       <Header />
       <HeroSection />
       <DestinationsCarousel />
