@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Search, Star, MapPin, Wifi, Car, Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -132,9 +133,11 @@ const HotelsSection = () => {
               ))}
             </div>
 
-            <Button variant="outline" size="lg" className="w-full sm:w-auto">
-              View All Hotels
-            </Button>
+            <Link to="/place-to-stay">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto">
+                View All Hotels
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const Header = () => {
   const navLinks = [
     { name: "Home", href: "/", icon: Home },
     { name: "Things to do", href: "/things-to-do", icon: Activity },
-    { name: "Place to stay", href: "#place-to-stay", icon: Hotel },
+    { name: "Place to stay", href: "/place-to-stay", icon: Hotel },
     { name: "Food & drinks", href: "#food-drinks", icon: UtensilsCrossed },
     { name: "News and events", href: "#news-events", icon: Newspaper },
     { name: "About", href: "#about", icon: Info },
