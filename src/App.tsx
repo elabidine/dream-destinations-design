@@ -8,6 +8,7 @@ import ThingsToDo from "./pages/ThingsToDo";
 import ActivityDetail from "./pages/ActivityDetail";
 import PlaceToStay from "./pages/PlaceToStay";
 import HotelDetail from "./pages/HotelDetail";
+import CityDetail from "./pages/CityDetail";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/activity/:id" element={<ActivityDetail />} />
           <Route path="/place-to-stay" element={<PlaceToStay />} />
           <Route path="/hotel/:id" element={<HotelDetail />} />
+          <Route path="/city/:cityId" element={<CityDetail />} />
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
